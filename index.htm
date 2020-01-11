@@ -13,7 +13,7 @@
   <!--<input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
     <input type="text"/>
     <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">    <button type="button" class="btn btn-warning">Qeydiyyat</button>
-    <button id="btn2" >Daxil Et</button>-->
+    <button id="btn2" >Daxil Et</button>
     <button id="btn1" type="button" class="btn btn-warning">Qeydiyyat</button>
    <div id="all">
     <div class="form-row">
@@ -45,6 +45,47 @@
 
   <button type="submit" class="btn btn-primary" id="btn2">Sign in</button>
 
+</div>
+-->
+
+<button  id="btn1" type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Qeydiyyat</button>
+<div id="all">
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Qeydiyyat </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Ad Soyad: <b style="color: red;">*</b></label>
+            <input placeholder="Example Exampler" required="required" type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Vezife: <b style="color: red;">*</b></label>
+            <input  placeholder="None" required="required" type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Maaş: <b style="color: red;">*</b></label>
+            <input  placeholder="0 AZN" required="required" type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Ünvan:</label>
+            <input  placeholder="Baku Azerbaijan" required="required" type="text" class="form-control" id="recipient-name">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button id="btn2" type="button" class="btn btn-primary" >Yadda saxla</button>
+        <button class="btn btn-secondary" data-dismiss="modal" type="button" >İmtina et</button>
+      </div>
+    </div>
+  </div>
+</div>
 </div>
   <table class="table"></table>
 

@@ -15,3 +15,7 @@ h1
 #all{
     display: none;
 }
+#btn1{
+    margin-bottom: 20px;
+    font-style: italic;
+}

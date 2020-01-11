@@ -96,5 +96,5 @@ btn2.onclick = function () {
     inp2.value = "";
     inp3.value = "";
     inp4.value = "";
-    all.style.display = "none";
+    
 }
